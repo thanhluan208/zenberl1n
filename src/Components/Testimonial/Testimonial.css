@@ -1,0 +1,44 @@
+.testimonial-img-box
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: cover;
+    position: relative;
+    overflow:hidden;
+}
+.ButtonReview
+{
+    position: absolute !important;
+    top: calc(100% - 27%);
+    left: calc(100% - 93%);
+    color: #fff !important;
+    border: 1px solid #fff !important;
+    height: calc(100% - 90%);
+    width: calc(100% - 85%);
+    backdrop-filter: blur(10px);
+    font-weight: 800;
+
+}
+.MuiGrid-spacing-xs-3
+{
+    width: 100% !important;
+    margin: unset !important;
+}
+.MuiButton-label
+{
+    font-size: calc(100%);
+}
+@media (max-width:850px) {
+    .MuiButton-label
+    {
+        font-size: calc(100% - 5px) ;
+    }
+}
+@media (max-width:600px) {
+    .MuiButton-label
+    {
+        font-size: calc(100% - 8px);
+    }
+}

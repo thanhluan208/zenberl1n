@@ -1,0 +1,46 @@
+.icon-contact
+{
+    bottom: 2%;
+    letter-spacing: 10px;
+    font-size: calc(100% + 10px);
+    margin-top: 5%;
+    position: absolute;
+    width: 60%;
+}
+.copyright p
+{
+    margin-bottom: 0 !important;
+}
+@media (max-width:1000px) {
+    
+    .footer-content
+    {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin-bottom: 10%;
+    }
+}
+@media (max-width:600px)
+{
+    .title
+    {
+        font-size: 40px !important;
+    }
+    .footer-content
+    {
+        font-size: calc(100% - 5px);
+    }
+    .icon-contact 
+    {
+        font-size: calc(100%) !important;
+        letter-spacing: 0;
+        position: absolute;
+        bottom: 0;
+    }
+    .copyright p
+    {
+        margin-bottom: 0 !important;
+        left: 0 !important;
+        font-size: calc(100% - 6px);
+    }
+}

@@ -1,0 +1,28 @@
+.Reservation-btn
+{
+    margin-left: 5% !important;
+    height: 50px;
+    width: 180px;
+    border: 2px solid rgb(0, 0, 0) !important;
+    text-align: center;
+    padding: 2%;
+    border-radius: 0px !important;
+}
+.Reservation-btn:hover 
+{
+    background-color: #000 !important;
+    border: 2px solid rgb(255,255,255) !important;
+    color: #fff !important;
+}
+.MuiFormControl-root
+{
+    width: 100%;
+}
+@media (max-width:450px)
+{
+    .Reservation-btn
+    {
+        margin-top: 5% !important;
+        margin-left: 0 !important;
+    }
+}

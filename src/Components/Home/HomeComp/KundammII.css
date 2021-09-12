@@ -1,0 +1,76 @@
+.KunDammII
+{
+    padding-top: 10%;
+}
+.img-box2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-box2 img
+{
+    position: relative;
+}
+.content-box2
+{
+    text-align: left;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-bottom: 5% !important;
+}
+.content-box2 p
+{
+    box-sizing: border-box;
+    text-align: justify;
+    text-align-last: left;
+    font-family: "Brandon-font",Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
+.content-box2 h1 
+{
+    position: relative;
+    margin-bottom: 5%;
+    color: #DAA520;
+}
+.content-box2 h1::after
+{
+    content: '';
+    height: 2px;
+    width: 30%;
+    background-color: #000;
+    position: absolute;
+    bottom: -2%;
+    left: 0;
+
+}
+.btn
+{
+    height: 50px;
+    width: 180px;
+    border: 2px solid #000;
+    text-align: center;
+    padding: 2%;
+    border-radius: 0;
+}
+.btn:hover
+{
+    background-color: #000;
+    color: #fff;
+}
+@media (max-width:600px)
+{
+    .navbar
+    {
+        width: 100%;
+    }
+    .img-resv
+    {
+        max-width: 70%;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+    
+}

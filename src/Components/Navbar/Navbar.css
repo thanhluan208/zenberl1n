@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #fff; /* fallback for old browsers */
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+i {
+  margin-right: 10px;
+}
+.navbar-logo {
+  padding: 15px;
+  color: #000;
+  pointer-events: none;
+}
+
+.navbar-mainbg {
+  background-color: #fff;
+  padding: 0px;
+}
+#navbarSupportedContent {
+  overflow: hidden;
+  position: relative;
+}
+#navbarSupportedContent ul {
+  padding: 0px;
+  margin: 0px;
+  align-items: center; 
+}
+#navbarSupportedContent ul .nav-link {
+  margin-right: 10px;
+  color: #000;
+}
+#navbarSupportedContent ul .nav-link:hover {
+  color:  #DAA520 ;
+  font-weight: 800;
+  box-shadow: 0 0px 10px  #DAA520 ;
+  border-radius: 25px;
+  background: transparent;
+  
+  
+}
+#navbarSupportedContent li {
+  list-style-type: none;
+  float: left;
+}
+
+.MuiButton-containedPrimary
+{
+  color: #987e3d !important;
+  background-color: #e2dfd6 !important;
+}
+.navbar 
+{
+  top: 0;
+}
+
+
+
+@media (max-width: 991px) {
+  #navbarSupportedContent ul li a {
+    padding: 12px 30px;
+  }
+  .hori-selector {
+    margin-top: 0px;
+    margin-left: 10px;
+    border-radius: 0;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+  .hori-selector .left,
+  .hori-selector .right {
+    right: 10px;
+  }
+  .hori-selector .left {
+    top: -25px;
+    left: auto;
+  }
+  .hori-selector .right {
+    bottom: -25px;
+  }
+  .hori-selector .left:before {
+    left: -25px;
+    top: -25px;
+  }
+  .hori-selector .right:before {
+    bottom: -25px;
+    left: -25px;
+  }
+  .navbar 
+  {
+    position: unset !important;
+  }
+
+}
